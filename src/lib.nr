@@ -18,7 +18,7 @@ mod get_array;
 mod utils;
 mod benchmarks;
 
-use json::JSON;
+pub use json::JSON;
 
 pub type JSON512b = JSON<512, 20, 64, 33, 2>;
 pub type JSON1kb = JSON<1024, 37, 128, 65, 2>;
